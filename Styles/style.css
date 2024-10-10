@@ -90,6 +90,7 @@
     border: 1px solid #0D1321;
     border-radius: 8px;
     transition: .2s;
+    text-decoration: none;
 }
 
 #banner-btn:hover {
