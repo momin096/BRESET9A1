@@ -130,12 +130,12 @@
     /* border: 1px solid black; */
     padding: 40px;
     background: linear-gradient(to right, #ffff, #ffffff10);
- 
+
     border-radius: 8px;
 }
 
-#card-2nd{
-    background: linear-gradient(to left , #ffff, #ffffff10);
+#card-2nd {
+    background: linear-gradient(to left, #ffff, #ffffff10);
 }
 
 .card-title {
@@ -165,4 +165,40 @@
     color: white;
     background-color: #0D1321;
     transition: .2s;
+}
+
+
+
+/* My Inspiration */
+.inspiration {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.inspiration-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inspiration-description {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.inspiration-video {
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 16px;
+    ;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    text-align: center;
+}
+
+iframe {
+    border-radius: 10px;
 }
