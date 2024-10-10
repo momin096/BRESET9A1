@@ -259,6 +259,10 @@ iframe {
     color: #0D1321;
 }
 
+.learn-more:hover{
+    color: cadetblue;
+}
+
 .current-card-container {
     display: flex;
     align-items: center;
