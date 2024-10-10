@@ -289,11 +289,11 @@ iframe {
     margin: 100px auto;
 }
 
-.next-card img{
+.next-card img {
     width: 100px;
 }
 
-.next-card-container{
+.next-card-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -347,7 +347,7 @@ iframe {
 
 
 /* I Need Support */
-.support{
+.support {
     background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -363,9 +363,10 @@ iframe {
     padding: 100px 0;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
-    
+
 }
-.support-title{
+
+.support-title {
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 20px;
@@ -373,7 +374,7 @@ iframe {
 }
 
 
-.support-description{
+.support-description {
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, .5);
@@ -381,12 +382,12 @@ iframe {
 }
 
 
-.support > div{
+.support>div {
     display: flex;
     gap: 20px;
 }
 
-input{
+input {
     width: 450px;
     padding: 15px;
     outline: 1px solid tomato;
@@ -394,10 +395,32 @@ input{
     color: rgba(13, 19, 33, 0.4);
 }
 
-#submit-btn{
+#submit-btn {
     padding: 15px 25px;
     border-radius: 8px;
     border: 1px solid rgba(128, 128, 128, 0.664);
     font-size: 20px;
     font-weight: 600;
+}
+
+
+/* Footer */
+.footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.icon-container{
+    display: flex;
+    gap: 20px;
 }
