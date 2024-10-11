@@ -357,14 +357,13 @@ iframe {
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1300px;
-    margin: 100px auto;
+    margin: 100px auto 20px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     justify-content: center;
-
     padding: 100px 0;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
@@ -408,6 +407,13 @@ input {
     font-weight: 600;
 }
 
+/* Back to top */
+#back-to-top{
+    text-align: right;
+}
+#back-to-top > a > img{
+    width: 100px;
+}
 
 /* Footer */
 .footer {
